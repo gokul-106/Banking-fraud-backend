@@ -1,25 +1,34 @@
 # Banking Fraud Detection Backend
 
-This project is a FastAPI-based backend system designed to analyze banking transactions and detect potential fraud patterns.
+## Overview
 
-## Features
-- REST APIs built with FastAPI
-- Fraud analytics endpoints
-- MongoDB integration
-- Interactive API testing with Swagger UI
+Backend-based banking fraud detection system built in Python to identify potentially fraudulent financial transactions. The system processes transaction data, performs preprocessing, applies fraud detection logic, and returns a classification result.
+
+## Purpose
+
+Designed to simulate how financial institutions automatically monitor transactions and flag suspicious activity for risk review.
+
+## Key Features
+
+* Transaction data preprocessing and validation
+* Fraud classification logic for suspicious activity detection
+* Automated backend prediction workflow
+* Structured handling of financial transaction records
 
 ## Tech Stack
-- Python
-- FastAPI
-- MongoDB
-- Uvicorn
 
-## How to Run
-1. Install dependencies:
-   pip install -r requirements.txt
+Python, data preprocessing, machine learning classification concepts.
 
-2. Start the server:
-   python -m uvicorn server:app --reload
+## Run the Project
 
-3. Open browser:
-   http://127.0.0.1:8000/docs
+git clone https://github.com/gokul-106/Banking-fraud-backend.git
+cd Banking-fraud-backend
+pip install -r requirements.txt
+python main.py
+
+*(Update the entry script if different in your project.)*
+
+## Author
+
+Gokul Krishna
+https://github.com/gokul-106
