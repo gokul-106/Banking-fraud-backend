@@ -12,18 +12,23 @@ Designed to simulate how financial institutions automatically monitor transactio
 ## Tech Stack
 Python, data preprocessing, machine learning classification concepts.
 ## How to Run
+
 Clone the repository
+
 git clone https://github.com/gokul-106/Banking-fraud-backend.git
 cd Banking-fraud-backend
+
 Install required libraries
+
 pip install fastapi uvicorn pandas numpy python-dotenv
+
 Start the backend server
+
 python -m uvicorn server:app --reload
+
 Open in browser:
+
 http://127.0.0.1:8000/docs
-## Author
-Gokul Krishna
-https://github.com/gokul-106
 ## API Demo
 
 ### Request Example
