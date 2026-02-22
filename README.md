@@ -34,3 +34,10 @@ python -m uvicorn server:app --reload
 
 Gokul Krishna
 https://github.com/gokul-106
+## API Demo
+
+### Request Example
+![API Request](api_request.png)
+
+### Response Example
+![API Response](api_response.png)
